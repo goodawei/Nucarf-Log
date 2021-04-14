@@ -1,0 +1,23 @@
+{
+    "name": "nucarf/nucarf-log",
+    "description": "Nucarf log agent",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "lihongwei",
+            "email": "lihongwei@nucarf.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Nucarf\\Log\\": "src/log/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require": {
+        "monolog/monolog": "^2.2"
+    }
+}
